@@ -14,8 +14,9 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.246.115:45955/?sni=www.bing.com&alpn=h3&insecure=1#gihizv.serv00.net
+hysteria2://7b252974-e281-4270-8c8a-804f6c2dffee@85.194.243.117:61393/?sni=www.bing.com&alpn=h3&insecure=1#hjfmyd.serv00.net
+hysteria2://2bdf9d5a-8fc8-410e-adb5-062e85239d9b@85.194.243.117:52517/?sni=www.bing.com&alpn=h3&insecure=1#yueero123.serv00.net
 `
 
 let urls = [];
