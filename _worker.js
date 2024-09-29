@@ -17,6 +17,9 @@ let MainData = `
 hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.246.115:45955/?sni=www.bing.com&alpn=h3&insecure=1#gihizv.serv00.net
 hysteria2://7b252974-e281-4270-8c8a-804f6c2dffee@85.194.243.117:61393/?sni=www.bing.com&alpn=h3&insecure=1#hjfmyd.serv00.net
 hysteria2://2bdf9d5a-8fc8-410e-adb5-062e85239d9b@85.194.243.117:52517/?sni=www.bing.com&alpn=h3&insecure=1#yueero123.serv00.net
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@tapoteft.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#edgetunnel
+vless://9bc580b5-384c-408a-b6a3-e6174e933c51@3kmfi6hp.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=3kmfi6hp.hl6q0q.dynv6.net&fp=randomized&type=ws&host=3kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#3kmfi6hp.hl6q0q.dynv6.net
+vless://8a1a85e5-a183-40b2-887c-5529275937ba@6kmfi6hp.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=randomized&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#6kmfi6hp.hl6q0q.dynv6.net
 `
 
 let urls = [];
