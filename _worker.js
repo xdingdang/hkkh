@@ -14,12 +14,16 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.246.115:45955/?sni=www.bing.com&alpn=h3&insecure=1#gihizv.serv00.net
-hysteria2://7b252974-e281-4270-8c8a-804f6c2dffee@85.194.243.117:61393/?sni=www.bing.com&alpn=h3&insecure=1#hjfmyd.serv00.net
-hysteria2://2bdf9d5a-8fc8-410e-adb5-062e85239d9b@85.194.243.117:52517/?sni=www.bing.com&alpn=h3&insecure=1#yueero123.serv00.net
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@tapoteft.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#edgetunnel
-vless://9bc580b5-384c-408a-b6a3-e6174e933c51@3kmfi6hp.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=3kmfi6hp.hl6q0q.dynv6.net&fp=randomized&type=ws&host=3kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#3kmfi6hp.hl6q0q.dynv6.net
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@6kmfi6hp.hl6q0q.dynv6.net:443?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=randomized&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#6kmfi6hp.hl6q0q.dynv6.net
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.19.99.77:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P1
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.20.134.198:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P2
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.24.86.155:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P3
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.23.142.71:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P4
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@162.159.81.130:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P5
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@108.162.193.189:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P6
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.23.100.202:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P7
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.20.52.99:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P8
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@172.67.222.146:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P9
+vless://f053eea6-3a74-417d-8181-4c3ea8dabb35@104.23.115.105:443?encryption=none&security=tls&sni=edgetunnel.hl6q0q.dynv6.net&fp=random&type=ws&host=edgetunnel.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#P10
 `
 
 let urls = [];
