@@ -24,6 +24,7 @@ vless://8a1a85e5-a183-40b2-887c-5529275937ba@172.67.48.25:2053?encryption=none&s
 vless://8a1a85e5-a183-40b2-887c-5529275937ba@172.64.162.30:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P8
 vless://8a1a85e5-a183-40b2-887c-5529275937ba@172.66.161.191:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P9
 vless://8a1a85e5-a183-40b2-887c-5529275937ba@172.66.142.207:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P10
+vless://8a1a85e5-a183-40b2-887c-5529275937ba@185.16.110.1:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P11-VPS
 `
 
 let urls = [];
