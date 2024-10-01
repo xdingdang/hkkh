@@ -14,27 +14,18 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@185.16.110.1:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P1-VPS
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@198.62.62.223:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P2
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@160.123.255.175:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P3
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@45.67.215.109:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P4
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@185.16.110.1:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P5
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@198.62.62.135:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P6
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@185.16.110.131:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P7
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@130.250.137.30:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P8
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@160.79.104.236:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P9
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@www.wto.org:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P10
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@198.62.62.52:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P11
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@212.183.88.7:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P12
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@69.84.182.172:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P13
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@135.84.76.104:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P14
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@198.62.62.154:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P15
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@160.123.255.131:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P16
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@63.141.128.26:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P17
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@160.123.255.59:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P18
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@69.84.182.116:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P19
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@104.27.51.221:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#P20
-vless://8a1a85e5-a183-40b2-887c-5529275937ba@206.238.236.87:2053?encryption=none&security=tls&sni=6kmfi6hp.hl6q0q.dynv6.net&fp=random&type=ws&host=6kmfi6hp.hl6q0q.dynv6.net&path=%2F%3Fed%3D2048#SG
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@185.16.110.1:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS1
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@160.123.255.175:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS2
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.104:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS3
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@198.62.62.223:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS4
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@158.224.90.158:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS5
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.148:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS6
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@69.84.182.220:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS7
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.27:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS8
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@212.183.88.176:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS9
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@icook.tw:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#icook.tw
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.wto.org:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.wto.org
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.visa.com.sg:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.visa.com.sg
 `
 
 let urls = [];
