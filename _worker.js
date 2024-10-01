@@ -24,11 +24,11 @@ vless://84ebe34d-94aa-49d0-972a-7991a913b90f@69.84.182.220:443?encryption=none&s
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.27:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS8
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@212.183.88.176:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS9
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.237.61:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.visa.com.sg:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.visa.com.sg
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.236.79:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.236.120:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@icook.tw:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#icook.tw
 vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.wto.org:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.wto.org
+vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.visa.com.sg:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.visa.com.sg
 `
 
 let urls = [];
