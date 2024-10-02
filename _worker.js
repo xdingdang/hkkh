@@ -14,9 +14,6 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.246.115:45955/?sni=www.bing.com&insecure=1#gihizv.serv00.net
-hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.243.117:61393/?sni=www.bing.com&insecure=1#hjfmyd.serv00.net
-hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@128.204.223.99:52517/?sni=www.bing.com&insecure=1#yueero123.serv00.net
 `
 
 let urls = [];
