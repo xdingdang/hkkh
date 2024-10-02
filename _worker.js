@@ -14,21 +14,9 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@185.16.110.1:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS1
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@160.123.255.175:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS2
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.104:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS3
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@198.62.62.223:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS4
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@158.224.90.158:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS5
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.148:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS6
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@69.84.182.220:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS7
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@135.84.76.27:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS8
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@212.183.88.176:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#VPS9
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@icook.tw:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#icook.tw
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.wto.org:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.wto.org
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@www.visa.com.sg:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#www.visa.com.sg
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.236.120:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.236.79:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
-vless://84ebe34d-94aa-49d0-972a-7991a913b90f@206.238.237.61:443?encryption=none&security=tls&sni=tapoteft.hl6q0q.dynv6.net&fp=randomized&type=ws&host=tapoteft.hl6q0q.dynv6.net&path=%2F%3Fed%3D2560#SG
+hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.246.115:45955/?sni=www.bing.com&insecure=1#gihizv.serv00.net
+hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@85.194.243.117:61393/?sni=www.bing.com&insecure=1#hjfmyd.serv00.net
+hysteria2://fc44fe6a-f083-4591-9c03-f8d61dc3907f@128.204.223.99:52517/?sni=www.bing.com&insecure=1#yueero123.serv00.net
 `
 
 let urls = [];
