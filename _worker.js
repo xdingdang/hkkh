@@ -16,8 +16,8 @@ let cacheTTL = 24 ;//小时，缓存时长
 let MainData = `
 tuic://39e8b439-06be-4783-ad52-6357fc5e8743:admin@cache12.serv00.com:45955?sni=www.bing.com&alpn=h3&congestion_control=bbr#gihizv.serv00.net
 tuic://39e8b439-06be-4783-ad52-6357fc5e8743:admin@cache5.serv00.com:61393?sni=www.bing.com&alpn=h3&congestion_control=bbr#hjfmyd.serv00.net
-tuic://39e8b439-06be-4783-ad52-6357fc5etuic://8586ec01-ef1b-4b35-9210-9da270377f95:8586ec01-ef1b-4b35-9210-9da270377f95@[2407:d840:21:114:514::c1]:22978?sni=www.bing.com&alpn=h3&congestion_control=bbr#tu5-SG
-8743:admin@cache5.serv00.com:52517?sni=www.bing.com&alpn=h3&congestion_control=bbr#yueero123.serv00.net
+tuic://39e8b439-06be-4783-ad52-6357fc5e8743:admin@cache5.serv00.com:52517?sni=www.bing.com&alpn=h3&congestion_control=bbr#yueero123.serv00.net
+tuic://8586ec01-ef1b-4b35-9210-9da270377f95:8586ec01-ef1b-4b35-9210-9da270377f95@[2407:d840:21:114:514::c1]:22978?sni=www.bing.com&alpn=h3&congestion_control=bbr#tu5-SG
 `
 
 let urls = [];
